@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue\ Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "BebasNeue";
+  src: url("..//fonts/BebasNeue\ Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "BebasNeue";
+  src: url("..//fonts/AvenirNext-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/*///////////////////FIRST PAGE//////////////////////////////*/
+
+.header {
+  min-height: 100vh;
+  min-width: 100vh;
+  background: url("..//img/background1.png") 0 0 / cover no-repeat;
+
+  padding: 30px 0 0 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.header__upmenu {
+  margin: 0 15px 0 15px;
+  justify-self: center;
+  align-self: center;
+}
+.upmenu {
+  margin: 0 15px 0 15px;
+  display: grid;
+  align-self: center;
+  grid-template-columns: repeat(5, 1fr);
+  min-width: 100%;
+}
+.upmenu__name {
+  font-size: 26px;
+  line-height: 27px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.upmenu__profession {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.upmenu__tel {
+  font-size: 20px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #ffffff;
+  grid-column: 4/5;
+}
+.upmenu__social img {
+  margin: 0 0 0 20px;
+}
+.header__about {
+  margin: 0 0 0 15px;
+  padding: 100px 0 100px 0px;
+  color: #ffffff;
+  max-width: 640px;
+  height: 100%;
+  text-align: left;
+}
+.about div {
+  margin: 50px 0 70px 0;
+}
+.about__ad {
+  font-family: "BebasNeue";
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+}
+.about__ad-from {
+  font-size: 27px;
+  line-height: 19px;
+  font-weight: 500;
+}
+.about__btnref {
+}
+.btn {
+  color: #ffffff;
+  display: inline-block;
+  padding: 30px 58px;
+  background-color: #23dcb8;
+  border-radius: 100px;
+  box-shadow: 0px 2px 21px 0px rgba(239, 255, 252, 0.46);
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  position: relative;
+  top: 5px;
+}
+
+/*///////////////////FIRST PAGE//////////////////////////////*/
+
+.main {
+  margin: 150px 0 0 0;
+}
+
+.main__advantage {
+}
+.advantage {
+}
+.advantage__title {
+}
+.title {
+  text-align: center;
+  font-family: BebasNeue;
+  font-size: 48px;
+  line-height: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  color: #212f3d;
+  line-height: 1.25;
+}
+.advantage__items {
+  margin: 100px 0 0 0;
+  display: grid;
+  column-gap: 30px;
+  row-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+}
+.advantage__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.advantage__icon {
+  align-self: center;
+}
+.advantage__text {
+  margin: 30px 0 0 0;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: AvenirNext-Regular;
+  font-weight: bold;
+  color: #212f3d;
+}
+
+/*///////////////////MAIN PAGE//////////////////////////////*/
+.aboutself {
+  margin: 110px 0 0 0;
+  min-width: 100%;
+  max-height: 100%;
+  display: flex;
+}
+.aboutself__bground {
+  min-height: 100vh;
+  min-width: 100vh;
+  background: url("..//img/background2.jpg") center / cover no-repeat;
+}
+
+.aboutself__myself {
+  margin-left: 50px;
+  margin-top: 150px;
+  max-width: 700px;
+}
+
+.aboutself__title {
+}
+
+.aboutself__text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #212f3d;
+  margin: 30px 0 30px 0;
+}
+
+.aboutself__text p {
+  text-indent: 50px;
+  font-style: italic;
+}
+.aboutself__text span {
+  text-indent: 30px;
+}
+
+.blockquote {
+  border: 2px solid #23dcb8;
+  font-size: 18px;
+  font-style: italic;
+  margin: 16px 31px 31px 16px;
+  padding: 16px 24px;
+  position: relative;
+  box-shadow: 15px 15px 0 0 #23dcb8;
+}
+
+/*///////////////////ABOUT MY SELF//////////////////////////////*/
+
+.signup {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.singup__callback {
+  margin: 45px 0 0 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #212f3d;
+}
+.signup__form {
+  margin: 65px 0 0 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #6e837f;
+}
+.signup__name input {
+}
+.signup__privacy_policy {
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #6e837f;
+}
+.signup__privacy_policy span {
+  text-decoration: underline;
+}
+.signup__btn {
+  margin: 30px 0 0 0;
+}
+.form1 {
+  margin: 0 20px;
+  padding: 10px;
+  width: 300px;
+  height: 30px;
+  border: 2px solid #23dcb8;
+  border-radius: 4px;
+}
+.form1:focus {
+  border: 2px solid #0d5748;
+}
+
+/*///////////////////FOOTER//////////////////////////////*/
+
+.footer {
+  position: relative;
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+}
+.footer__bg {
+  min-height: 930px;
+  background: url("..//img/footer.png") center / cover no-repeat;
+}
+
+.footer__title {
+  padding: 155px 0 0 0;
+  font-family: BebasNeue;
+  font-size: 48px;
+  line-height: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  color: #ffffff;
+}
+.footer__social {
+  margin: 80px 0px 0px 0px;
+  justify-content: center;
+}
+.socitems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socitems__socitem {
+  margin: 0 55px 0 0;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__private {
+  opacity: 0.3;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 15px 0;
+}
